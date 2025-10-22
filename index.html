@@ -15,6 +15,7 @@
         font-variation-settings: "wdth" 100;
         font-size: 16px;
         width: 960px;
+        background-color: #c9e8a0;
       }
 
       h1 {
@@ -22,24 +23,28 @@
         font-optical-sizing: auto;
         font-weight: 500;
         font-style: normal;
+        text-align: center;
       }
 
       img {
-        width: 50px;
+        width: 440px;
         height: auto;
       }
 
       .container {
         display: grid;
         grid-template-columns: 50% 50%;
-        gap: 150px;
-        margin: 0 auto;
-        max-width: 1200px;
+        gap: 10px;
       }
 
       .grid-item {
-        background-color: #c9e8a0;
-        min-height: 150px;
+        background-color: #ffffff;
+        margin: 20px;
+      }
+
+      .text-item {
+        padding: 20px;
+        text-align: center;
       }
 
       #site-title {}
@@ -49,6 +54,7 @@
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
+        text-align: center;
       }
 
       nav a {
@@ -87,25 +93,33 @@
     <div class="container">
       <div class="grid-item">
         <img src="banh-mi.jpg" alt="Vietnamese Sandwich">
-        <h2>Classic Pork Banh Mi</h2>
-        <p>Tender marinated pork topped with crisp pickled vegetables, fresh cilantro, and a smear of pâté on a perfectly crusty baguette. A traditional favorite that balances savory, sweet, and tangy flavors in every bite.</p>
+        <div class="text-item">
+          <h2>Classic Pork Banh Mi</h2>
+          <p>Tender marinated pork topped with crisp pickled vegetables, fresh cilantro, and a smear of pâté on a perfectly crusty baguette. A traditional favorite that balances savory, sweet, and tangy flavors in every bite.</p>
+        </div>
       </div>
       <div class="grid-item">
         <img src="banh-mi.jpg" alt="Vietnamese Sandwich">
-        <h2>Lemongrass Chicken Banh Mi</h2>
-        <p>Grilled chicken marinated in fragrant lemongrass and garlic, paired with cucumber, jalapeños, and our house mayo. Light yet satisfying, this sandwich brings bright, aromatic flavors that'll transport you straight to Saigon.</p>
+        <div class="text-item">
+          <h2>Lemongrass Chicken Banh Mi</h2>
+          <p>Grilled chicken marinated in fragrant lemongrass and garlic, paired with cucumber, jalapeños, and our house mayo. Light yet satisfying, this sandwich brings bright, aromatic flavors that'll transport you straight to Saigon.</p>
+        </div>
       </div>
       <div class="grid-item">
         <img src="banh-mi.jpg" alt="Vietnamese Sandwich">
-        <h2>Tofu Banh Mi</h2>
-        <p>Crispy pan-fried tofu glazed in sweet soy sauce, layered with daikon, carrots, and fresh herbs for a vegetarian delight. Proof that plant-based can be just as bold and craveable as any meat-filled sandwich.</p>
+        <div class="text-item">
+          <h2>Tofu Banh Mi</h2>
+          <p>Crispy pan-fried tofu glazed in sweet soy sauce, layered with daikon, carrots, and fresh herbs for a vegetarian delight. Proof that plant-based can be just as bold and craveable as any meat-filled sandwich.</p>
+        </div>
       </div>
       <div class="grid-item">
         <img src="banh-mi.jpg" alt="Vietnamese Sandwich">
-        <h2>Five-Spice Beef Banh Mi</h2>
-        <p>Thinly sliced beef seared with aromatic five-spice blend and served with pickled vegetables and spicy Sriracha mayo. Rich, warming spices meet cool, crunchy toppings for an unforgettable flavor experience.</p>
+        <div class="text-item">
+          <h2>Five-Spice Beef Banh Mi</h2>
+          <p>Thinly sliced beef seared with aromatic five-spice blend and served with pickled vegetables and spicy Sriracha mayo. Rich, warming spices meet cool, crunchy toppings for an unforgettable flavor experience.</p>
+        </div>
       </div>
-      <footer>Because life's too short for boring sandwiches. Greg's got you covered—one crispy baguette at a time.</footer>
     </div>
+    <footer>Because life's too short for boring sandwiches. Greg's got you covered—one crispy baguette at a time.</footer>
   </body>
 </html>
